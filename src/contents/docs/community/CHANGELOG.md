@@ -5,7 +5,7 @@
 
  
 ### Features:
-- Our local server was using /tmp as path. What is not the most secure thing to do. It now uses /run/user/user_id.
+- Our local server was using /tmp as path. That is not the most secure thing to do. It now uses /run/user/user_id.
 
 ### Bug fixes:
 - The F1 shortcut was broken and was not opening our manual.
@@ -871,4 +871,4 @@
 - Gstreamer was replaced by native PipeWire filters.
 - Many features were reimplemented from scratch. The preset autoloading is one example. Another remarkable change will be seen in the plugins selection menu. Now the user can show in the window only the plugins that he/she wants to use.
 - Boost is no longer a dependency. The price paid for that was a little change in our presets structures. With some patience it is possible to edit PulseEffects presets in a text editor and make them work in EasyEffects. Hopefully someone will come up with a script for this in the feature.
-- New libraries are being used and some of the librarires that were optional before are now required
+- New libraries are being used and some of the libraries that were optional before are now required
